@@ -1088,13 +1088,12 @@ hr.why-hr-line{
 
 .call-btn {
     line-height: 45px;
-    border-top: 4px solid #b99863;
+    border-top: 4px solid #b47c56;
     height: 50px;
     text-decoration: none !important;
-    color: #926a2a !important;
+    color: #47190e !important;
     background: #b99863;
-    background: -webkit-gradient(linear, left top, right top, from(#b99863), color-stop(50%, #f8edb8), to(#b99863));
-    background: linear-gradient(90deg, #b99863 0%, #f8edb8 50%, #b99863 100%);
+    background: linear-gradient(90deg, #f2c292 0%, #f2c292 35%, #fbd4a9 100%) !important;
     font-weight: 500;
     font-size: 20px;
     position: fixed;
