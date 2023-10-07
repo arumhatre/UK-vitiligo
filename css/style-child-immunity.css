@@ -175,7 +175,7 @@ header {
     .position_sticky {
         position: fixed;
         top: 0;
-        z-index: 999;
+        z-index: 1;
     }
 }
 
@@ -749,7 +749,39 @@ del {
     color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1400px) and (min-width: 768px) {
+
+    .banner_para {
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212121;
+    font-weight: 400;
+}
+
+.banner_ornge_heding {
+    padding: 5px 12px;
+    font-size: 27px;
+    line-height: 49px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ba7c50;
+    display: inline;
+}
+    .test_vitiligo_btn {
+        text-transform: uppercase;
+        background: #491a0e !important;
+        color: #fff;
+        font-size: 12px;
+        padding: 8px 25px;
+        font-weight: 500;
+        box-shadow: 0 1px 9px 0 rgb(129 105 67);
+    }
+}
+
+
+@media (max-width: 600px) {
     .test_vitiligo_btn {
         text-transform: uppercase;
         background: #491a0e !important;
@@ -764,8 +796,8 @@ del {
 .bg-band {
     background: #491a0e;
 /*    margin-top: -30px;*/
-    position: relative;
-    z-index: 2;
+/*    position: relative;*/
+/*    z-index: 2;*/
 }
 
 .icon-band p {
@@ -825,6 +857,10 @@ del {
 
 .section-padding {
 /*  margin: 0 auto;*/;
+}
+
+.owl-carousel{
+    z-index: 0;
 }
 
 .owl-item .item {
