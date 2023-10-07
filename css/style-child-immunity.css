@@ -20,14 +20,14 @@ header {
 
 .uk-banner-vitiligo {
 /*    background: linear-gradient(90deg, #f2c292 0%, #f2c292 35%, #fbd4a9 100%);*/
-   /*background: url(../images/banner-right-top.png) top right no-repeat;
+   /*background: url(../images/banner-right-top.webp) top right no-repeat;
     background-size: auto !important;
     background-color: linear-gradient(90deg, #f2c292 0%, #f2c292 35%, #fbd4a9 100%);*/
 /*      height: 100vh;*/
     background-position: top right, bottom left;
     background-repeat: no-repeat;
-    background-image: url(../images/banner-right-top.png),
-    url(../images/banner-left-bottom.png);
+    background-image: url(../images/banner-right-top.webp),
+    url(../images/banner-left-bottom.webp);
     background-size: auto !important;
 }
 
@@ -253,7 +253,7 @@ header {
 }
 
 .contactForm select.form-control {
-    background: #ffffff url(../../image/hairloss_images_v2/arrow-down.png) no-repeat right 10px center;
+    background: #ffffff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;
     appearance: none;
 }
 
@@ -888,7 +888,7 @@ del {
 
 @media (max-width: 1024px){
     .what-section-css {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 70px;
     background-color: #fff2e2;
     height: auto;
@@ -945,14 +945,14 @@ del {
 }
 
 .our-doc-advantages-bg {
-    background: url(../images/our-doc-bg.png) bottom center no-repeat;
+    background: url(../images/our-doc-bg.webp) bottom center no-repeat;
     background-size: cover;
 }
 
 
 @media (max-width: 575px){
     .our-doc-advantages-bg {
-    background: url(../images/our-doc-bg-mob.png) bottom center no-repeat;
+    background: url(../images/our-doc-bg-mob.webp) bottom center no-repeat;
     background-size: cover;
 }
 }
@@ -983,7 +983,7 @@ del {
 }
 
 .dot-list-sym li::before {
-    content: url('../images/dot.png');
+    content: url('../images/dot.webp');
     display: inline-block;
     width: 25px;
     font-size: 25px;
