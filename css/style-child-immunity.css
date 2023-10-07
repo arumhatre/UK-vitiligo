@@ -966,7 +966,7 @@ del {
 
 @media (max-width: 575px){
     .our-doc-advantages-bg {
-    background: url(../images/our-doc-bg-mob.png) bottom center no-repeat;
+    background: url(../images/our-doc-bg-mob.webp) bottom center no-repeat;
     background-size: cover;
 }
 }
